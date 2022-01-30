@@ -1,0 +1,30 @@
+@media (max-width:1200px){
+
+    .container{
+       margin:0;
+    }
+ 
+ }
+ 
+ @media (max-width:450px){
+ 
+    .container .main-video-container .main-vid-title{
+       font-size: 15px;
+       text-align: center;
+    }
+ 
+    .container .video-list-container .list{
+       flex-flow: column;
+       gap:10px;
+    }
+ 
+    .container .video-list-container .list .list-video{
+       width: 100%;
+    }
+ 
+    .container .video-list-container .list .list-title{
+       font-size: 15px;
+       text-align: center;
+    }
+ 
+ }
